@@ -1,0 +1,266 @@
+
+/* ALGEMENE INSTELLINGEN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVIGATIE */
+header {
+    background-color: white;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7045b8;
+}
+
+/* HOME */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 10%;
+    background-color: white;
+}
+
+.hero img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+    color: #7045b8;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* ABOUT ME */
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #7045b8;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.column,
+.colum {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.column h3,
+.colum h3 {
+    color: #7045b8;
+    margin-bottom: 15px;
+}
+
+.languages-list {
+    padding-left: 20px;
+}
+
+.sub-title {
+    margin-top: 25px;
+}
+
+.center-title {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* STERKE PUNTEN */
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.badge {
+    background-color: #eee7f8;
+    color: #56318b;
+    border: 1px solid #d5c4ee;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* KNOPPEN */
+.action-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #7045b8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #56318b;
+}
+
+/* PROJECTEN */
+.projecten {
+    background-color: white;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.projecten h1 {
+    color: #7045b8;
+    margin-bottom: 15px;
+}
+
+.intro {
+    margin-bottom: 25px;
+}
+
+.kaart {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.kaart h3 {
+    color: #7045b8;
+    margin-bottom: 15px;
+}
+
+.kaart p {
+    margin-bottom: 12px;
+}
+
+.kaart a {
+    display: inline-block;
+    color: #7045b8;
+    margin: 10px 0;
+}
+
+.kaart img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* CONTACT */
+.contact-sectie {
+    padding: 50px 10%;
+    text-align: center;
+    min-height: 65vh;
+}
+
+.pagina-titel {
+    color: #7045b8;
+    margin-bottom: 15px;
+}
+
+.contact-intro-titel {
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contact-kaart {
+    background-color: white;
+    padding: 25px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-kaart:hover {
+    border-color: #7045b8;
+}
+
+.contact-kaart h3 {
+    color: #7045b8;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
